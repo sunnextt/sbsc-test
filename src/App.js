@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import 'antd/dist/antd.css';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import ExpirySession from './utils/expirysession';
 
 import GlobalStyled from './GlobalStyled';
 import RequireAuth from './utils/requireAuth';

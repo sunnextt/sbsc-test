@@ -12,7 +12,7 @@ const Users = () => {
     const dispatch = useDispatch();
 
     const [isModalVisible, setIsModalVisible] = useState(false);
-    const [page, setPage] = useState([]);
+    const [page] = useState([]);
     const [data, setData] = useState([]);
     const [error, setError] = useState([]);
 
